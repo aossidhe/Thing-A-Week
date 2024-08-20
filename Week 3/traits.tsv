@@ -1,0 +1,972 @@
+Trait	Tags	Conflicts	Modifier?
+A maverick; this (self?) perception is important to them.	Self-conception,Personality		
+A humorist; this (self?) perception is important to them.	Self-conception,Personality		
+An asshole; this (self?) perception is important to them.	Self-conception,Personality		
+A hero; this (self?) perception is important to them.	Self-conception,Personality		
+Popular/well-liked; this (self?) perception is important to them.	Self-conception,Personality		
+Unpopular/an outsider; this (self?) perception is important to them.	Self-conception,Personality		
+Considers themself a villain; this (self?) perception is important to them.	Self-conception,Personality		
+Adrenaline junkie.	Preference,Personality		
+Likes to play things close to the chest; prefers to keep knowledge/plans secret.	Social,Personality		
+Social brinksman. Can't resist pushing situations further.	Social,Personality		
+Tends to speak without thinking or considering tact.	Social,Personality		
+Tends to put their foot in their mouth.	Social,Personality		
+Takes pride in their appearance. Considers looking sharp a tool in/of itself.	Social,Appearance,Personality		
+Condescends to those outside their field. Often over/underestimates laymen's understanding.	Social,Personality		
+Has a god complex. Considers others beneath their time.	Social,Personality		
+Has a difficult time apologising, admitting fault, or taking responsibility.	Social,Personality		
+Prone to overanalysis and overthinking.	Nature,Personality		
+Relies on their roguish charm.	Social,Personality		
+Distrustful of everyone, including their friends.	Social,Personality		
+Needs to be the center of attention.	Social,Personality		
+Compliments others often and easily.	Social,Personality		
+Perfectly comfortable with normally-uncomfortable conversations or confrontation.	Social,Personality		
+Extremely blunt and straightforward.	Social,Nature,Personality		
+Very dry sense of humor.	Social,Preference,Personality	Humor	
+Finds it difficult to care about people in the abstract.	Social,Ethic,Personality	Abstract	
+Has to prove they're the smartest person in the room.	Nature,Social,Nature,Personality		
+Cares extremely deeply for their friends, but little for anyone else.	Ethic,Social,Personality		
+Results-oriented thinking; doesn't mind breaking rules or regulations.	Ethic,Social,Personality	Rules	
+Extremely firm moral rules.	Ethic,Personality		
+Believes regulations are there for a reason and shouldn't be violated.	Ethic,Personality	Rules	
+Finds it difficult to care about anyone except in the abstract.	Ethic,Nature,Personality	Abstract	
+Uses humor to deflect from emotions.	Emotional,Personality		
+Uncomfortable with direct conversations.	Emotional,Personality		
+Paranoid; devotes a lot of time to plans or skills other consider unnecessary at best.	Nature,Personality		
+Always hungry/willing to eat.	Preference,Nature,Personality		
+Eyes are bigger than their stomach (when it comes to food or otherwise).	Nature,Personality		
+Gives nicknames to others.	Social,Personality		
+Forgets others' names constantly.	Social,Personality	Names	
+Never forgets a face.	Social,Personality		
+Never forgets a name.	Social,Personality	Names	
+Has a flair for the dramatic.	Nature,Social,Preference,Personality		
+Holds grudges for a long time.	Nature,Social,Personality	Forgiveness	
+Forgives easily.	Social,Personality	Forgiveness	
+Jumps from hobby to hobby.	Preference,Nature,Personality		
+Easily bored.	Nature,Personality		
+Extremely patient.	Nature,Personality		
+Tends to hyperfocus on tasks.	Nature,Personality		
+Can get hyperfocused on details/minutia.	Nature,Personality		
+Perfectionist.	Nature,Personality		
+Dislikes planning; prefers to improvise.	Nature,Preference,Personality	Planning	
+Dislikes improvisation; prefers detailed planning.	Nature,Preference,Personality	Planning	
+Speaks with precision and enunciation.	Nature,Habit,Personality		
+Likes to make a game of words. Fond of puns and wordplay.	Nature,Social,Preference,Personality		
+Fond of doublespeak; prefers to lie by Exact Words.	Ethic,Social,Preference,Personality		
+Perfectly willing to sacrifice themself or others for the greater good. Very pragmatic.	Ethic,Social,Personality		
+Shuts down emotionally in times of crisis.	Nature,Emotional,Personality		
+Becomes extremely emotional in times of crisis.	Nature,Emotional,Personality		
+Quick temper; keeps it in tight control.	Nature,Emotional,Personality	Temper	
+Quick temper; finds it hard to control.	Nature,Emotional,Personality	Temper	
+Ambitious; wants to climb in their job.	Drive,Nature,Personality	Ambition	
+Not ambitious; no strong aspirations.	Drive,Nature,Personality	Ambition	
+Unmotivated; looking for direction.	Drive,Personality	Ambition	
+Takes orders well. Works well under direction.	Social,Personality	Obey	
+Dislikes taking orders. Bucks authority.	Social,Personality	Obey	
+Prefers to be in charge. Takes control of unfocused groups.	Social,Personality		
+Refers to people almost exclusively by their surname.	Social,Personality		
+Incorrigible flirt.	Social,Personality		
+Uses others as tools to accomplish their own goals.	Social,Ethic,Personality		
+Sees themself as a poet or artist.	Self-conception,Personality		
+Dislikes being out of their comfort zone.	Nature,Personality		
+Likes to push themselves out of their comfort zone.	Nature,Personality		
+Loves trying new things.	Nature,Preference,Personality		
+Superstitious; prone to mystical thinking.	Nature,Ethic,Personality		
+Strong religious beliefs, but not a zealot.	Ethic,Personality		
+Strong religious beliefs; considers those who disagree to be wrong or deluded.	Ethic,Social,Personality		
+Strong atheist. Doesn't mind religion.	Ethic,Personality		
+Agnostic. Doesn't worry about religious concepts.	Ethic,Personality		
+Agnostic. Scared of death or being wrong about religion.	Ethic,Personality		
+Militant atheist.	Ethic,Social,Personality		
+Takes comfort in small personal rituals.	Emotional,Personality		
+Takes comfort in their routine and habits.	Emotional,Personality		
+Creature of habit.	Nature,Personality		
+Cries easily.	Emotional,Personality		
+Rarely, if ever, shows emotion.	Emotional,Social,Personality		
+Hates high society/events.	Preference,Personality		
+Considers themself high-class and dislikes lower-class events or people.	Social,Self-conception,Preference,Personality		
+Has a particular cause they feel deeply about.	Preference,Ethic,Personality		
+Has a passion project they're trying to get off the ground.	Goal,Personality		
+Is very touchy about a particular topic.	Emotional,Personality		
+Gracious loser.	Emotional,Social,Personality		
+Poor loser.	Emotional,Social,Personality		
+Demands respect from everyone.	Social,Personality		
+Challenges authority; only respects those who have earned it.	Social,Nature,Personality		
+Good with children.	Social,Personality		
+Connects well with strangers.	Social,Personality		
+Comes across as standoffish or awkward.	Social,Personality		
+Doesn't notice other people's feelings or emotional implications.	Social,Nature,Personality		
+Has a fondness for a certain type of collectible.	Preference,Personality		
+Has a time-consuming hobby.	Occupation,Personality		
+Has an expensive hobby.	Occupation,Personality		
+Phobia of a common object/situation.	Emotional,Disability,Nature,Personality		
+Phobia of an uncommon/specific object/situation.	Emotional,Disability,Nature,Personality		
+Very fond of a particular food.	Preference,Personality		
+Gets frustrated when roadblocked or stymied.	Nature,Personality		
+Often tries to bluff their way through problems.	Social,Nature,Personality		
+Terrible gambler.	Nature,Personality		
+Excellent gambler.	Nature,Personality		
+Hates bullies.	Ethic,Personality		
+Something of a bully.	Nature,Personality		
+Can't stand not knowing something.	Emotional,Nature,Personality		
+Know-it-all.	Nature,Personality		
+Feels the need to one-up everyone.	Social,Personality		
+Handyman: skilled in various physical/construction fields.	Ability,Personality		
+Jack-of-all-trades: skilled in various professional areas.	Ability,Personality		
+Renaissance man: skilled in various artistic fields.	Ability,Personality		
+Polyglot: speaks various languages.	Ability,Personality		
+Polymath: skilled in various scientific/intellectual fields.	Ability,Personality		
+Relates everything to a preferred set of media or games.	Nature,Personality		
+Gets nervous easily.	Emotional,Personality		
+Fiscally responsible. Solid financial portfolio.	Nature,Personality		
+Bad with money.	Nature,Personality		
+Lives by a code of etiquette. Gentlemanly/ladylike.	Social,Ethic,Personality		
+Needs approval from others. People-pleaser.	Social,Emotional,Personality		
+Looks for approval from an authority figure.	Social,Emotional,Personality		
+Gets bored/interrupts others once they understand the point being made.	Social,Personality		
+Tends to belabour their point.	Social,Personality		
+Spartan in personality. Requires very little in the way of material possessions.	Nature,Ethic,Preference,Personality		
+Materialistic; loves the finer things in life.	Nature,Preference,Personality		
+Black/white mentality.	Ethic,Personality		
+Wants everything to be narratively meaningful/find the reason why everything happens.	Personality		
+Believes everything happens for a reason.	Personality		
+Impulsive; leaps without looking.	Personality		
+Delinquent; enjoys petty crime/mischief.	Personality		
+Looking for purpose.	Personality		
+Driving, all-consuming goal.	Personality		
+Ends justify the means.	Personality		
+Ends never justify the means.	Personality		
+Narcissist.	Personality		
+Overindulges in a luxury.	Personality		
+Often thinks they know more/could do better than trained professionals, despite being a layman.	Personality		
+Proud of origins.	Personality		
+Ashamed of origins.	Personality		
+Kindly, grandfather/motherly quality.	Personality		
+Old soul.	Personality		
+Young at heart.	Personality		
+Loves animals.	Personality		
+Dislikes children.	Personality		
+Avid gardener.	Personality		
+Gourmand.	Personality		
+Homosexual.	Personality		
+Homosexual (doesn't know/admit it)	Personality		
+Bisexual.	Personality		
+Not interested in sex.	Personality		
+Irritated by, or ashamed of, their sexual impulses.	Personality		
+Cracks jokes when nervous or uncomfortable.	Personality		
+Talks when nervous or uncomfortable.	Personality		
+Detests poor manners/grammar.	Personality		
+Loves the rain, cold, or otherwise gloomy weather.	Personality		
+Enjoys the outdoors.	Personality		
+Views relationships through a transactional lens.	Personality		
+Can't help but challenge authority.	Personality		
+Constantly looking for ways to improve procedures/methods.	Personality		
+Constantly trying to improve themself.	Personality		
+Communicates brusquely/curtly over text or phone.	Personality		
+Tends to ramble on.	Personality		
+Gets sidetracked/goes off on tangents easily.	Personality		
+Easily distracted.	Personality		
+Driven to do anything said to be impossible.	Personality		
+Wants to optimize everything.	Personality		
+Extremely fond of card/board games.	Personality		
+Loves video games.	Personality		
+Reads voraciously.	Personality		
+Film aficionado.	Personality		
+History buff.	Personality		
+Likes to wear costumes/unusual outfits.	Personality		
+Inclined to give up when hitting a roadblock.	Personality		
+Dislikes head-on confrontation.	Personality		
+Passive-aggressive.	Personality		
+Quite humble about their accomplishments and abilities.	Personality		
+Boasts about their own accomplishments and abilities.	Personality		
+Has a sadistic streak.	Personality		
+Has a masochistic streak.	Personality		
+Gift of gab; is never at a loss for words.	Personality		
+Habitual liar.	Personality		
+Accustomed to being popular.	Personality		
+Accustomed to feeling an outsider.	Personality		
+Sees wonder/beauty in everything.	Personality		
+Jaded/cynical. Has seen it all.	Personality		
+Has unusual trains of thought. Hard to follow.	Personality		
+Jumps conversational topics without warning.	Personality		
+Maintains a well-furnished living space. Takes pride in their home.	Personality		
+Optimistic/cheery.	Personality		
+Depressive/melancholic.	Personality		
+Always looking for the upside of a situation.	Personality		
+Always tries to brighten others' day. Very kind and friendly.	Personality		
+Not prone to guilt or remorse. Rarely feels shame.	Personality		
+Extremely stubborn.	Personality		
+Loves to tease people by refusing to explain things or manufacturing mystique.	Personality		
+Effortlessly charismatic; the boy/girl-next-door.	Personality		
+Thinks they can talk their way out of or into anything. Often right.	Personality		
+Overestimates their own abilities/skills.	Personality		
+Inferiority complex.	Personality		
+Superiority complex.	Personality		
+Seldom smiles.	Nature,Emotional,Smile,Expression		
+Standoffish; keeps to themself.	Social,Nature,Personality		
+Tends to be a macho man/girly-girl.	Preference,Nature,Personality		
+Something of a tomboy/effeminate.	Preference,Nature,Personality		
+Extremely compassionate, sometimes against their better judgement.	Social,Ethic,Nature,Personality		
+Wants to feel a part of something bigger than themselves.	Drive,Nature,Personality		
+Wants to live up to a particular legacy.	Drive,Personality		
+Eager but sometimes overreaches.	Nature,Personality		
+Unashamed of who they are.	Nature,Social,Personality		
+Thinks in unorthodox ways. Can't really think in conventional ways.	Nature,Personality		
+Never ruffled; no sense of shame or embarrassment.	Nature,Social,Emotional,Personality		
+Easily distracted by attractive people.	Nature,Social,Emotional,Personality		
+Has a tendency to make things harder for themself/overengineer problems.	Nature,Personality		
+Constantly looking for the next adventure or challenge.	Nature,Personality		
+Something of a drama queen.	Nature,Social,Personality		
+Avoids conflict whenever possible.	Nature,Social,Personality		
+Thrives on conflict.	Nature,Social,Preference,Personality		
+Geeks out on their favourite topics or areas of expertise.	Nature,Social,Personality		
+Takes on the emotional state of others. Happy when others are happy, down when their friends are sad, etc.	Nature,Social,Personality		
+Has a saviour complex. 	Nature,Personality		
+Has an inferiority complex.	Nature,Personality		
+Likes to think in sweeping, black-and-white terms. Nuance seems like cowardice or moral equivocation to them.	Personality		
+Dislikes flair or fanciness.	Personality		
+Would light themselves on fire to keep others warm.	Personality		
+Burns the candle at both ends.	Personality		
+Throws themselves into their work to avoid thinking about emotional problems.	Personality		
+Extremely good at compartmentalising—often won't even notice they're miserable until they stop and take stock of the situation as a whole.	Personality		
+Can't resist a challenge/bet/dare.	Personality		
+Terrible at lying.	Personality		
+Surprisingly good at lying.	Personality		
+Gets really into whatever they do. Go big or go home!	Personality		
+Hates physical contact, except in a rare few specific scenarios.	Personality		
+Hates any and all forms of physical contact.	Personality		
+Dislikes public displays of affection; be it them or others.	Personality		
+Loves gossip.	Personality		
+Despises small talk.	Personality		
+Terrible at small talk.	Personality		
+Awkward when first meeting people, but becomes quite comfortable with those they're acquainted with.	Personality		
+Intimidating aura. Often makes threats or similar.	Personality		
+All talk, no action.	Personality		
+Compulsive liar.	Personality		
+Has high standards for others, and holds themselves to even higher standards.	Personality		
+Hypocritical; holds double standards.	Personality		
+Constantly trying to improve themselves and their surroundings.	Personality		
+Needs to always have a project or goal. Not a workaholic, but would not do well if unemployed for long periods.	Personality		
+Takes on aspects of those with whom they're speaking, such as word choice, inflection, or accent.	Personality		
+Spaces out as they think.	Personality		
+Makes expressions as they think.	Personality		
+Has a hobby they engage in often, but are still terrible at.	Personality		
+Hates being dirty, sweaty, or sticky.	Personality		
+Feels most comfortable in formal businesswear.	Personality		
+Self-conscious of their body.	Personality		
+Insecure about their intelligence.	Personality		
+Embarrassed about their media tastes/preferences.	Personality		
+Has a niche hobby.	Personality		
+Hypochondriac.	Personality		
+Entitled; expects special treatment.	Personality		
+Becomes withdrawn and sullen when upset.	Personality		
+Tends to say what they're thinking, even when they're trying not to.	Personality		
+Loves to say 'I told you so.'	Personality		
+Has a deviant sexual proclivity.	Personality		
+Teacher's pet.	Personality		
+Teetotaler/avoids intoxicants or drugs.	Personality		
+Has something of a pyromaniac streak.	Personality		
+Hopeless romantic.	Personality		
+Loves pranks, both playing and receiving.	Personality		
+Very no-nonsense.	Personality		
+Subtly racist.	Personality		
+Subtly sexist.	Personality		
+Unrepentantly sexist.	Personality		
+Unrepentantly racist.	Personality		
+Desperate to prove themselves.	Personality		
+Clean/neat-freak.	Personality	Cleanliness	
+Germophobe.	Personality	Cleanliness	
+Has a tendency to see to the core of issues or ask armor-penetrating questions.	Personality		
+Gets sidetracked or distracted by details easily.	Personality		
+Hates feeling unsure of themselves or the situation. Prefers to make a decision rather than sit around.	Personality		
+Hates seeing others in physical or emotional pain. Always wants to help them.	Personality		
+Always wants to solve problems.	Personality		
+Provides only the bare minimum of social niceties, responses, or conventions.	Personality		
+Easily ignores others' emotions or frustration when necessary.	Personality		
+Doesn't mind omitting information or misleading people to advance their own goals.	Personality		
+(Seems to) have no impulse control, acting instinctively.	Personality		
+Casually ignores regulations; seems to find joy in getting away with flaunting rules.	Personality		
+Loves to poke and taunt; almost gleeful when it leads to being insulted or attacked because of it.	Personality		
+Honest to a fault.	Personality		
+Will answer any question honestly, though won't volunteer information.	Personality		
+Enjoys making people off-balance or uncomfortable.	Personality		
+Has a unique way of catching people offguard with their comments and insights.	Personality		
+Doesn't know when to stop talking.	Personality		
+Reserved, but wishes they were more outgoing or bold.	Personality		
+Tends to dig themselves deeper into social holes.	Personality		
+Loves to hear themselves talk.	Personality		
+Latches onto people who show them affection or interest.	Personality		
+Enjoys making people uncomfortable.	Personality		
+Enjoys frightening people/seeing people frightened.	Personality		
+Likes to stir up conflict or drama.	Personality		
+Enjoys surprising or catching people off-guard.	Personality		
+Easily startled.	Personality		
+Very hard to startle.	Personality		
+Very stubborn, but only about small, inconsequential things.	Nature,Personality		
+Very stubborn, but only about important things.	Nature,Personality		
+Apologizes easily and quickly; hates to inconvenience others.	Personality		
+Hates apologizing. Will never do it insincerely.	Personality		
+Considers themselves above menial work.	Personality		
+Enjoys menial or repetitive work.	Personality		
+Often gets others to cover or do their job for them.	Personality		
+Takes up other people's slack; eager to help others out.	Personality		
+Makes stands based on principle, even if it's not pragmatic. Able to cut off their nose to spite their face. 	Personality		
+Will always pay their debts—whether returning a favor or getting revenge.	Personality		
+Forgets both grudges and debts quickly—theirs and others'.	Personality		
+Blithely ignores warning or keep-out signs.	Personality		
+Very hard to read.	Personality		
+Often difficult to tell when they're joking/doing a bit.	Personality		
+Enjoys deliberately creating ambiguity and keeping people wondering.	Personality		
+Does voices and accents to accentuate their stories.	Personality		
+Photographic memory.	Personality		
+Excellent memory; recalls details and information easily.	Personality		
+Good memory for information, but forgets daily information or details.	Personality		
+Remembers daily information and emotional memories easily, but struggles to memorize information.	Personality		
+Relatively poor memory; often lets details slip and has difficulty memorizing information.	Personality		
+An Ivory tower academic; very intelligent but lacking in common sense, street smarts, or people skills.	Personality		
+Not great at academic affairs but has good people skills/street smarts.	Personality		
+Juggles multiple activities at once; gets bored when confined to only one activity at a time.	Personality		
+Sympathetic crier.	Personality		
+Brutally honest/very blunt.	Personality		
+Very serious and stoic.	Personality		
+Loves to lord power or authority over others.	Personality		
+Hates being interrupted.	Personality		
+Overbearing when they're the top dog, syncophantic when not.	Personality		
+Always maintains an air of politeness or dignity, even when put off or insulting others.	Personality		
+Blends into nearly any environment or group easily.	Personality		
+Tends to fade into the background. Prefers to be unobtrusive.	Personality		
+Likes gaudy or eye-catching outfits. 	Personality		
+Hates anything gaudy or flashy. Dislikes being flashy.	Personality		
+A parent died in front of them.	History		
+A violation of rules led to a colleague being injured.	History		
+A violation of rules led to a colleague being fired.	History		
+A violation of rules led to a significant personal failure.	History		
+Has a painful trauma they've repressed; situations resembling it cause significant distress.	History		
+Comes from wealth.	History		
+Comes from poverty.	History		
+Grew up in a rural/wooded area.	History		
+Grew up in the city.	History		
+Developed a trait after a medical mishap.	History		
+Developed a trait after an accident.	History		
+Developed a trait after an attack.	History		
+Was once involved in organised crime.	History		
+Was once involved in petty/disorganised crime.	History		
+Was once involved with a gang.	History		
+Fled home country due to a war, civil or otherwise.	History		
+Immigrated as a child. Doesn't recall much of home country.	History		
+Immigrated as a child. Misses home country.	History		
+Immigrated from another country to escape hardship.	History		
+Immigrated from another country to seek new experiences.	History		
+Moved around a lot as a child.	History		
+Has held many different jobs.	History		
+Played sports as a child.	History		
+Participated in theatrical/public speaking activities as a child.	History		
+Participated in musical/dance activities as a child.	History		
+Got a job at a very early age.	History		
+Was forced to become a provider/caretaker in some capacity at a young age.	History		
+Parent forced them into a particular path.	History		
+Parent forced them away from a particular path.	History		
+Had a radical change of life path in early adulthood.	History		
+Had a beloved pet.	History		
+Home was destroyed in a natural disaster.	History		
+Had to leave schooling early due to an unforeseen event.	History		
+Was raised in a cult.	History		
+Was raised in an extremely strict household.	History		
+One of their parents was abusive.	History		
+Was raised by a single parent.	History		
+Both of their parents were abusive.	History		
+Significant bullying as a child.	History		
+Bullied others as a child.	History		
+A frightening event occurred as a child, but has been kept secret.	History		
+Survived a childhood illness.	History		
+A childhood illness caused a lingering trait.	History		
+Their first love died tragically.	History		
+Was jilted.	History		
+Has a history of painful breakups.	History		
+Divorced.	History		
+Is an illegitimate child/bastard.	History		
+Involved in the military. Left on good terms.	History		
+Involved in the military. Left due to personal changes.	History		
+Involved in the military. Dishonorably discharged.	History		
+Involved in the military to escape bad life.	History		
+Desperate to live up to a family member's legacy.	History		
+Was written off as stupid/incompetent as a child.	History		
+Was called a prodigy in some regard as a child.	History		
+Fell in with a bad crowd as a kid. Now tries to put that far behind them.	History		
+Fell in with a bad crowd as a kid and stayed with them to one extent or another.	History		
+Wrongfully accused of a crime.	History		
+Committed a serious crime but was never suspected.	History		
+Committed a serious crime, but managed to avoid conviction.	History		
+Was in juvie as a child.	History		
+Was in foster care as a child.	History		
+Spent several years in prison.	History		
+Dropped out of high school to support themselves/their family.	History		
+Dropped out of college for monetary reasons.	History		
+Never went to college; got a job immediately after high school.	History		
+Graduated college.	History		
+Started a business during college.	History		
+Went to a trade school/had an apprenticeship.	History		
+Was shipped off to boarding school.	History		
+Spent summer(s) with a somewhat-distant relative.	History		
+Was raised in a community with very different values.	History		
+Watched a parent struggle with/succumb to a progressive illness.	History		
+Parent has a hereditary illness; may have passed it on.	History		
+Was cheated on/betrayed by a partner.	History		
+Cheated on/betrayed a partner.	History		
+Has fallen into debt.	History		
+Has taken out several loans.	History		
+Declared bankruptcy.	History		
+Gave up a promising career or opportunity.	History		
+Was denied a promising career or opportunity.	History		
+Was given an unusual/lucky opportunity.	History		
+Fingers twitch and tap constantly. When extremely stressed or anxious goes still.	Habit		
+Constantly snacking.	Habit		
+Keeps a very strict diet; concerned with their health.	Habit		
+Works out often. Wants to be in top physical shape.	Habit		
+Reads constantly. Always looking for new information.	Habit		
+Often jumping from foot to foot.	Habit		
+Stands rigidly. Body is held in straight lines.	Habit		
+Moves gracefully and smoothly.	Habit		
+Moves quickly and jerkily, like a bird.	Habit		
+Keeps very still.	Habit		
+Keeps an inscrutable/blank expression.	Habit		
+Moves in discrete, contained motions.	Habit		
+Moves different parts of the body independently and simultaneously.	Habit		
+Repeats things others say.	Habit		
+Compulsively corrects others' grammar.	Habit		
+Tends to bop/bounce/dance subtly when bored.	Habit		
+Smooths their hair back.	Habit		
+Rubs the bridge of their nose.	Habit		
+Rubs their temples.	Habit		
+Chews their lip.	Habit		
+Chews their fingernails.	Habit		
+Bites the inside of their cheek.	Habit		
+Puts their tongue to one side when thinking.	Habit		
+Does the snap-clap thing while waiting.	Habit		
+Shifts their weight back and forth while standing.	Habit		
+Never stands still.	Habit		
+Stretches their arms/legs.	Habit		
+Taps their thumb to each of their fingertips in quick patterns.	Habit		
+Tosses a ball back and forth between their hands.	Habit		
+Spins pens/pencils.	Habit		
+Chews pens/pencils.	Habit		
+Rests their chin on their hand.	Habit		
+Folds their arms over their chest.	Habit		
+Stands at parade rest.	Habit		
+Sits with legs crossed.	Habit		
+Kicks their feet up when sitting down.	Habit		
+Stares into the distance when thinking. Sometimes takes a moment to snap out of it.	Habit		
+Steeples their fingers.	Habit		
+Makes a net out of their hands to rest their chin on.	Habit		
+Twirls/plays with their hair.	Habit		
+Touches other people while talking to them.	Habit		
+Stands a bit too close when talking to others.	Habit		
+Stands a bit too far away when talking to others.	Habit		
+Hangs up the phone abruptly.	Habit		
+Chews gum.	Habit		
+Stares at cigarette as they smoke.	Habit		
+Chews a toothpick.	Habit		
+Keeps detailed notes/journals.	Habit		
+Sketches/doodles when anxious/distracted.	Habit		
+Paces when agitated.	Habit		
+Chews their tongue.	Habit		
+Tends to hum/sing to themself.	Habit		
+Doesn't meet people's eyes; stares elsewhere.	Habit		
+Constantly scans their environment/surroundings.	Habit		
+Constantly glances off towards events or objects nearby.	Habit		
+Speaks when they have something to say, regardless of if someone else is already talking.	Habit		
+Sometimes speaks at such length they run out of breath.	Habit		
+Scoffs often.	Habit		
+Jaw clenches when angry or emotional.	Habit		
+Tightens lips when thinking or focused.	Habit		
+Bites lip when nervous or thinking.	Habit		
+Blinks often.	Habit		
+Intense, focused gaze.	Habit		
+Drums fingers to rythms.	Habit		
+Stands straight and proud, almost as if at military rest.	Habit		
+Hooks fingers into pockets/waistband.	Habit		
+Doesn't know what to do with them when they can't keep them in their pockets.	Habit		
+Bounces back and forth on their heels.	Habit		
+Fond of gestures; uses them frequently.	Habit		
+Adjusts/touches glasses often.	Habit		
+Whistles as they walk.	Habit		
+Uses filler words liberally.	Habit		
+Uses a lot of introductory phrases to soften their language.	Habit		
+Rarely without a slight smirk.	Social,Smile,Habit		
+Their eyes shine like they're amused by a private joke.	Habit		
+Sits in an odd way.	Habit		
+Has a distinctive way of walking.	Habit		
+Licks their lips.	Habit		
+Clicks their tongue.	Habit		
+Scoffs often.	Habit		
+Says only the bare minimum required.	Habit		
+Pokes tongue around their mouth as they think.	Habit		
+Buffyspeaks a lot, especially when they're too busy doing a thing to word at people.	Habit		
+Tends to ramble on.	Habit		
+Easily distracted.	Habit		
+Spaces out as they think.	Habit		
+Makes expressions as they think.	Habit		
+Tends to say what they're thinking, even when they're trying not to.	Habit		
+Neck flexes when they're excited or worked up.	Habit		
+Leans against walls or counters.	Habit		
+Employs unusually complex syntax and esoteric vocabulary in an effort to precisely convey their meaning.	Habit		
+Mild case of tinnitus.	Physical		
+Family history of a degenerative disease. Lives in fear of eventually displaying symptoms.	History		
+Family history of mental illness. Lives in fear of eventually displaying symptoms.	History		
+Supertaster.	Physical		
+Lightweight; can't hold their alcohol.	Physical		
+Has a high tolerance for drugs or alcohol.	Physical		
+Wimpy; extremely distracted by pain.	Physical		
+Insomniac.	Physical		
+Addicted to caffeine.	Physical		
+Currently has an addiction; trying to manage/hide it.	Physical		
+Currently has an addiction; trying to break it.	Physical		
+High-functioning alcoholic.	Physical		
+Low-functioning alcoholic.	Physical		
+Former addict; keeps the fact hidden.	Physical		
+Former addict; doesn't hide the fact.	Physical		
+Former alcoholic.	Physical		
+Practices martial arts. Relative novice.	Physical		
+Practices martial arts. Relatively skilled.	Physical		
+Familiar with firearms. Comfortable with their use.	Physical		
+Expert marksman.	Physical		
+Ignores pain easily.	Physical		
+Relatively unattractive and knows it.	Physical		
+Extremely average-looking. Wouldn't stand out in a crowd.	Physical		
+Slightly above-average appearance.	Physical		
+Has a distinctive appearance that some find attractive and some find unattractive.	Physical		
+Quite attractive.	Physical		
+Excellent actor.	Physical		
+Terrible actor.	Physical		
+Excellent liar.	Physical		
+Terrible liar.	Physical		
+Good at reading people.	Physical		
+Slight speech impediment.	Physical		
+Accent from a particular part of the country.	Physical		
+Accent from a different country.	Physical		
+Distinctive way of speaking/intonation.	Physical		
+Steady, focused gaze.	Physical		
+Tends not to keep their eyes fixed in one place for more than a few seconds.	Physical		
+Distinctive facial scar.	Physical		
+One eye is blind, but not visibly so.	Physical		
+One eye is blind; visibly so.	Physical		
+Mostly blind; can perceive some changes of light or motion.	Physical		
+Blind from birth.	Physical		
+Deaf from birth.	Physical		
+Went deaf due to a trauma.	Physical		
+Partially deaf.	Physical		
+Colourblind.	Physical		
+Slight limp.	Physical		
+Persistent tremor in their hand(s).	Physical		
+Wears glasses.	Physical		
+Uses a cane.	Physical		
+Wheelchair-bound.	Physical		
+Wears braces.	Physical		
+Freckles.	Physical		
+Unusually pale.	Physical		
+Tanned.	Physical		
+Sunburnt.	Physical		
+Weathered skin.	Physical		
+Squinty eyes.	Physical		
+Farmer's tan.	Physical		
+Prominent jowls.	Physical		
+Gaunt cheeks.	Physical		
+Sunken eyes.	Physical		
+Lined face.	Physical		
+Looks older than they are.	Physical		
+Looks younger than they are.	Physical		
+Ethnically ambiguous.	Physical		
+Toothy smile.	Physical		
+Crooked/rougish smile.	Physical		
+Asymmetrical haircut.	Physical		
+Fashionable haircut.	Physical		
+Unfashionable/unflattering haircut.	Physical		
+Neat, if bland, haircut.	Physical		
+Formerly-nice haircut has grown out.	Physical		
+Well-groomed.	Physical		
+Unshaven.	Physical		
+Tousled/casual hair.	Physical		
+Pleasant-smelling.	Physical		
+Noticeable BO.	Physical		
+Poor hygiene.	Physical		
+Nicotine-stained teeth.	Physical		
+Ruddy complexion.	Physical		
+Acne.	Physical		
+Pockmarked face.	Physical		
+Hawklike nose.	Physical		
+Slightly asymmetrical/once-broken nose.	Physical		
+Roman nose.	Physical		
+Visible veins.	Physical		
+Tight skin; tendons visible.	Physical		
+Loose skin.	Physical		
+Slouches/hunched over.	Physical		
+Excellent posture.	Physical		
+Has a resting bitch face.	Physical		
+Has a smirk constantly at their lips	Physical		
+Has a constant scowl/frown.	Physical		
+Seems to always look sad or unhappy.	Physical		
+Eyes are wide and expressive.	Physical		
+Eyes are small and darting.	Physical		
+Has a wide mouth.	Physical		
+Has a sharp nose.	Physical		
+Has a wide/large nose.	Physical		
+Has a cute nose.	Physical		
+Has a strong jawline.	Physical		
+Has angular eyes.	Physical		
+Unusual eye colour.	Physical		
+Greying prematurely.	Physical		
+Unusually tall.	Physical		
+Shorter than average.	Physical		
+High, prominent cheekbones.	Physical		
+Round face.	Physical		
+Innocent, young features.	Physical		
+Dark circles under eyes.	Physical		
+Crow's feet at corner of eyes.	Physical		
+Balding prematurely.	Physical		
+Bald.	Physical		
+Wispy hair.	Physical		
+Thick, bushy eyebrows.	Physical		
+Unusually thick eyelashes.	Physical		
+Features typical of their ethnic heritage.	Physical		
+Features unusual for their ethnic heritage.	Physical		
+Grows facial hair quickly.	Physical		
+Unable to grow facial hair.	Physical		
+Hairy overall.	Physical		
+Stocky build.	Physical		
+Lean build.	Physical		
+Lanky build.	Physical		
+Long, slender fingers.	Hands,Physical		
+Prominent ears.	Physical		
+One ear is slightly nubbed.	Physical		
+Curly hair.	Physical		
+Straight hair.	Physical		
+Coarse hair.	Physical		
+Long hair.	Physical		
+Short hair.	Physical		
+Minor facial scar.	Physical		
+Has a surgical scar on their torso.	Body,Physical		
+Has a birthmark on their body.	Body,Physical		
+Has a birthmark on their face.	Face,Physical		
+Distinctive laugh lines.	Face,Physical		
+Clear and bright eyes.	Eyes,Physical		
+Dark and occluded eyes.	Eyes,Physical		
+Thick, broad hands.	Hands,Physical		
+Unusually muscular.	Build,Physical		
+Seems to have lost a lot of weight recently.	Build,Physical		
+Heavyset.	Build,Physical		
+Currently losing weight.	Build,Physical		
+Arched eyebrows.	Eyebrows,Physical		
+Thin, delicate eyebrows.	Eyebrows,Physical		
+Strong, cleft chin.	Face,Physical		
+Singsong voice.	Voice,Physical		
+Pleasant speaking voice.	Voice,Physical		
+Raspy, hoarse voice.	Voice,Physical		
+Nasally voice.	Voice,Physical		
+Speaks slowly.	Voice,Physical		
+Speaks quickly.	Voice,Physical		
+Has a lisp.	Voice,Physical		
+Deep, rich voice.	Voice,Physical		
+Quiet voice.	Voice,Physical		
+Voice naturally carries.	Voice,Physical		
+Thin neck.	Head,Physical		
+Hair brushed/pulled back severely.	Hair,Physical		
+Rosy/full cheeks.	Face,Physical		
+Very flexible.	Body,Physical		
+Easy/charming smile.	Smile,Physical		
+Affable demeanor.	Nature,Physical		
+Old-fashioned appearance/style.	Physical		
+Missing a limb.	Disability,Physical		
+Part of their face is paralysed.	Disability,Face,Physical		
+An appendage or limb is paralysed/crippled.	Disability,Physical		
+A piece of their eyebrow is missing.	Eyebrows,Physical		
+Something of a unibrow.	Eyebrows,Physical		
+Coy smile.	Smile,Physical		
+Wry grin.	Smile,Physical		
+Smile doesn't reach eyes.	Physical		
+Expressions are subdued and subtle.	Physical		
+Nostrils flare when angry.	Physical		
+Gap between their front teeth.	Physical		
+Missing a tooth.	Physical		
+Prone to nosebleeds.	Physical		
+Haemophiliac.	Physical		
+Diabetic.	Physical		
+Common allergy.	Physical		
+Uncommon allergy.	Physical		
+Sensitive eyes.	Physical		
+Sensitive/sharp ears.	Physical		
+Missing a finger.	Hands,Physical		
+A few small scars on hands and arms.	Physical		
+Expressive eyebrows.	Physical		
+Arches one eyebrow.	Physical		
+Deadpan delivery.	Physical		
+Thick neck.	Physical		
+Bulging eyes.	Physical		
+Prominent foreteeth.	Physical		
+Cute overbite.	Physical		
+Broad shoulders.	Physical		
+Slumped shoulders.	Physical		
+Round face.	Physical		
+Hair sticks up in the back.	Physical		
+Full lips.	Physical		
+Thin lips.	Physical		
+Grey/ashen face.	Physical		
+Watery eyes.	Physical		
+Clumsy. Tends to drop or bump into things.	Physical		
+Has a few cuts and bruises.	Physical		
+Eyes are bloodshot.	Physical		
+Eyes are red as if from crying or sick.	Physical		
+Asthmatic.	Physical		
+Has a mild cancer.	Physical		
+Has inoperable cancer.	Physical		
+Keeps a pen/pencil behind their ear.	Physical		
+Uses reading glasses.	Physical		
+Wears stylish glasses.	Physical		
+Wears unstylish glasses.	Physical		
+Freckles.	Physical		
+A rich, earthy complexion.	Physical		
+A light olive complexion.	Physical		
+High contrast between their features.	Physical		
+A golden complexion.	Physical		
+A pale, ethereal complexion.	Physical		
+A dark, warm complexion.	Physical		
+A rich, hearty laugh.	Physical		
+Warm, friendly face.	Physical		
+Resting bitch face.	Physical		
+Appears severe and harsh.	Physical		
+A throaty, sniggering laugh.	Physical		
+A breathy, snorting laugh.	Physical		
+A cackling, wheezing laugh.	Physical		
+A light, giggling laugh.	Physical		
+Weak stomach.	Physical		
+Has a distinctive jacket they wear.	Physical		
+Has an unusual and unique fashion sense.	Physical		
+Has a number of unique tattoos.	Physical		
+Has a tattoo that is shameful/embarassing.	Physical		
+Has a tattoo with deep personal meaning.	Physical		
+Heterochromatic.	Physical		
+Hands are rough and calloused.	Physical		
+Hands are well-maintained and prim.	Physical		
+Has a cowlick/shock of hair sticking up in the back.	Physical		
+Sun-lightened hair.	Physical		
+Widow's peak.	Physical		
+Half-lidded eyes/bored/sleepy expression.	Physical		
+Excellent diction.	Physical		
+Slurs/mumbles.	Physical		
+Bushy/frizzy hair.	Physical		
+Curly hair.	Physical		
+Golden blonde hair.	Physical		
+Pale blonde hair.	Physical		
+Hair is greying prematurely.	Physical		
+Hair is greying at the temples.	Physical		
+Pure white hair.	Physical		
+Warm brown hair.	Physical		
+Cool brown hair.	Physical		
+Coppery hair.	Physical		
+Deep auburn hair.	Physical		
+Cool black hair.	Physical		
+Raven black hair.	Physical		
+Hair is dyed a natural colour.	Hair,Physical		
+Hair is dyed a bright/pastel colour.	Hair,Physical		
+Hair was dyed, is now growing/fading out.	Hair,Physical		
+Missing at least one tooth.	Physical		
+Surprisingly photogenic.	Physical		
+Not very photogenic.	Physical		
+Albino.	Physical		
+Sweats easily or profusely.	Body,Physical		
+Seems to always have a frog in their throat.	Voice,Physical		
+Raspy or gravelly voice.	Voice,Physical		
+Charming, broad smile.	Face,Physical		
+Seems immune to the cold.	Body,Preference,Physical	Cold	
+Seems to always be cold.	Body,Preference,Physical	Cold	
+Strong, thick fingers.	Hands,Physical		
+Rough, calloused hands.	Physical		
+Wiry, 'old-man strength'. Stronger than they look.	Physical		
+Hair is thinning on top.	Physical		
+Bald on top.	Physical		
+Immaculately styled hair.	Physical		
+Missed a spot shaving.	Physical		
+Skinny but with a slight paunch.	Physical		
+Slumped or weak shoulders.	Physical		
+Broad shoulders.	Physical		
+Slight scoliosis.	Physical		
+Carpal tunnel.	Physical		
+Developing arthritis.	Physical		
+Suffers from arthritis.	Physical		
+Tends to talk out of one side of their mouth or with their mouth almost closed.	Physical		
+Well-maintained facial hair.	Physical	BeardMaint	
+Facial hair is unkempt or neglected.	Physical	BeardMaint	
+Long or bushy beard.	Physical		
+Close-cropped or short beard.	Physical		
+Goatee or small beard.	Physical		
+Thick moustache.	Physical		
+Thin or elegant moustache.	Physical		
+Facial hair is unusual or old-fashioned.	Physical		
+Five-o'clock shadow.	Physical		
+Face develops deep lines or furrowed brow when upset or stressed.	Physical		
+Has a one-sided, smirky smile.	Physical		
+Pursed-lip smile.	Physical		
+Has an embarassing nickname.	Personality	Nickname	
+Has an embarassing nickname. Has grown fond of it.	Personality	Nickname	
+Has no family to speak of.	Family,Personality		
+Has a small, close-knit family.	Family,Personality		
+Has only a few estranged family members.	Family,Personality		
+Has a very large family.	Family,Personality		
+Is a regular at a local diner.	Personality		
+Involved in a local sports team.	Personality		
+On good terms with their neighbours.	Personality		
+Has a network of people who owe them favours.	Personality		
+Owes people favours, including some powerful individuals.	Personality		
+A social pariah due to a past event.	Personality		
+An outsider; doesn't fit into the local circle.	Personality		
+A newcomer to the area. Doesn't know many people yet.	Personality		
+A newcomer to the area. Their arrival has made a stir.	Personality		
+Has a beloved pet.	Personality		
+Part of an insular community that distrusts outsiders.	Personality		
+Estranged parents.	Personality		
+Close with their grandparents.	Personality		
+Good friends with their colleagues.	Personality		
+Has a small group of tight-knit friends.	Personality		
+Has a group of friends who interlink somewhat.	Personality		
+Is the lynchpin between several disparate groups of friends. 	Personality		
+Moves between groups of people; social butterfly.	Personality		
+Moves between groups of people; social moth.	Personality		
+Has a child.	Personality		
+Has an illegitimate child/child from an affair/one-night-stand.	Personality		
+Has a half-sibling.	Personality		
+Parents have remarried.	Personality		
+Still close with childhood friend(s).	Personality		
+Fancies a childhood friend.	Personality		
+Secretly fancies a close friend.	Personality		
+Fancies an acquaintance.	Personality		
+Fancies a friend but doesn't have the affection returned.	Personality		
+A friend fancies them; doesn't return the affection.	Personality		
+A close friend secretly fancies them.	Personality		
+Has a large number of friends of the opposite sex.	Personality		
+Maintains distance from the opposite sex as a matter of course.	Personality		
+Keeps their various groups of relationships separate.	Personality		
+Is close with their parents.	Personality		
+Close with only one parent.	Personality		
+Doesn't know their biological parents.	Personality		
+Cut ties with family.	Personality		
+Ostracised by their family.	Personality		
+One of their parents is not their biological parent.	Personality		
+The favoured child.	Personality		
+The least-favoured child.	Personality		
+Doted on by grandparents.	Personality		
+Bullied by schoolmates/coworkers.	Personality		
+Looked down upon by peers.	Personality		
+Admired by peers.	Personality		
+Has few friends of the opposite sex.	Personality		
+Mainly has friends of the opposite sex.	Personality		
+Seems to be on a first-name basis with everyone in their community.	Personality		
+Has a very close relationship with a sibling.	Personality		
+Has mixed relationships with siblings.	Personality		
+Volunteers at a local charity.	Personality		
+Volunteers at a local religious center.	Personality		
+Volunteers at a local outreach group.	Personality		
+Keeps in touch with childhood community.	Personality		
+Teaches a local hobby class.	Personality		
+Has a number of casual romantic relationships.	Personality		
+Is currently cheating/having an affair.	Personality		
+Estranged from their exes.	Personality		
+Is part of a lower social class or caste.	Personality		
+Is an untouchable or equivalent; a social pariah.	Personality		
+Wants to prove themselves to a specific person.	Personality		
+Desperate to escape/forget their past life.	Personality		
+Trying to atone for a terrible mistake/sin.	Personality		
+Wants to acquire wealth/material goods.	Personality		
+Hedonist: wants to experience pleasure and the fine life.	Personality		
+Wants to be in control; have authority.	Personality		
+Wants to avoid being bored, have fun.	Personality		
+Obsessed with revenge/vengeance.	Personality		
+Completely focused on delivering/achieving justice.	Personality		
+Needs to be respected, admired, and maintain face.	Personality		
+Always looking for the next big thrill/challenge.	Personality		
+All about a particular goal or objective.	Personality		
+Only cares about their art/work.	Personality		
+Trying to reclaim their lost lifestyle/position.	Personality		
+Wants to be spiritually/morally good.	Personality		
+Will protect and care for their family or close community at all costs.	Personality		
+Needs to prove that they are valuable/useful.	Personality		
+Desperate to have their genius/skill recognised.	Personality		
+Mainly concerned with meeting their physical needs and staying safe.	Personality		
+Really only cares about staying out of drama and danger. Wants a quiet life.	Personality		
+Needs to belong/contribute to a higher calling or greater cause.	Personality		
+Wants complete freedom.	Personality		
+Needs love, affection, or trust.	Personality		
+Wants to succeed and is constantly trying to be the best among their peers.	Personality		
+Desperate to find a cure for a malady.	Personality		
+Wants to be remembered/leave a legacy.	Personality		
+Wants to be well-known/famous.	Personality		
+Cocks their head when thinking or paying attention.	Gesture,Personality		
+Wiggles their head arrogantly.	Personality		
+Enjoys arts and/or crafts.	Personality		
+Leaves small notes around to remind or encourage.	Personality		
+Likes to personalise their environment.	Personality		
+Dislikes settling into a place they won't spend time in.	Personality		
+Had an unexpected pregnancy when they were young.	Personality		
+Had a significant pregnancy scare.	Personality		
+Currently trying to have a child.	Personality		
+Looking to/working on adopting a child.	Personality		
+Treats others with a very cavalier/casual attitude.	Social,Personality		
+Takes a cavalier attitude towards life.	Nature,Personality		
+Currently pregnant/partner is pregnant.	Personality		
+Unable to have children.	Personality		
+Has a small number of children.	Community,Personality		
+Has a large number of children.	Community,Personality		
+Doesn't mind a cluttered or chaotic environment.	Personality	Cleanliness	
+Enjoys a somewhat chaotic environment.	Personality	Cleanliness	
+Something of a slob.	Personality	Cleanliness	
+Silly/goofy sense of humor.	Personality	Humor	
+Dark/gallows sense of humor.	Personality	Humor	
+Absurdist sense of humor.	Personality	Humor	
+Slapstick sense of humor.	Personality	Humor	
+Takes pleasure in subtly putting others down.	Personality		
+Gets a sense of power from making others look bad.	Personality		
+A small amount of power goes to their head.	Personality		
+Extremely nitpicky and inflexible about rules.	Personality		
+Gets a sense of security from knowing what's expected and required, especially when codified into rules and regulations.	Personality		
+Finds rules and regulations stifling; prefers to have freedom to follow their whims and instincts.	Personality		
+Completely oblivious to flirting.	Personality		
+Tends to miss or misread social cues.	Personality		
+Twirls/plays with facial hair.	Personality		
+Bounces leg while sitting/standing.	Personality		
+Stretches their fingers/hands out.	Personality		
+Pops their knuckles.	Personality		
+Rolls their shoulders/neck.	Personality		
+Has a whiny/obnoxious voice.	Personality		
+Natural charisma; makes everything look like a performance or pose.	Personality		
+Has a pen/pencil tucked behind their ear.	Personality		
+Tends to cry emotionally, esp. when happy, excited, afraid, etc.	Personality		
+Strongly identifies with a culture foreign to the one in which they live.	Personality		
+Self-destructive	Personality		
+Uses sex as a way to get connections	Personality		
+Uses talents/mind to get connections	Personality		
+Discusses hard and painful topics flippantly	Personality		
+Throws touchy topics in people's faces	Personality		
+Bottles up emotions until something leaks out	Personality		
+Tends to do something to reinvent themselves when under stress	Personality		
+Has difficulty broaching any emotional topic or addressing conflict	Personality		
+Uses malapropisms or innuendo a lot by accident	Personality		
+Student	Situation		
+Intern	Situation		
+New hire	Situation		
+Old veteran/experienced	Situation		
+About to retire	Situation		
+Retired	Situation		
+Part-time worker	Situation		
+Volunteer worker	Situation		
+Works for a nonprofit	Situation		
+Works for a large business	Situation		
+Owns own business	Situation		
+Works for government	Situation		
+Works for small business	Situation		
+Unemployed, looking for work	Situation		
+Unemployed, not looking for work	Situation		
+Vagrant	Situation		
+Works in church in or religious establishment	Situation		
+Freelancer	Situation		
+Consultant	Situation		
+Minimalist	Personality		
+Maximalist	Personality		
+Spartan/austere	Personality		
