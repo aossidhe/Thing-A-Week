@@ -8,16 +8,6 @@
     - GUI for generating a list of traits
 - Dual-boot computer with Linux and Windows
 
-### Notes/Usage
-
-- Have to import the data with the following CLI: 
-
-```
-$ sqlite3 data
-sqlite> .mode tabs
-sqlite> .import traits.tsv traits
-```
-
 ### Practiced/Learned:
 
 - Github repo creation
