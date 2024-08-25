@@ -55,7 +55,6 @@ def clicked():
 
 def get_traits(number):
     data = cursor.execute("SELECT trait FROM traits ORDER BY RANDOM() LIMIT(?)", [number])
-    #TODO: preserve selected traits
     array_traits.clear()
     for row in data:
         array_traits.append(row[0])
@@ -69,6 +68,10 @@ def clear_traits():
         array_deleted_traits.append(list_traitsbox.get(trait))
         list_traitsbox.delete(trait)
     print(array_deleted_traits)
+
+def increment():
+    #TODO: add function
+    1==1
 
 
 # Buttons for number of traits to retrieve

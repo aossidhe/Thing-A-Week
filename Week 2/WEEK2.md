@@ -1,0 +1,3 @@
+- Did work on audio for video (see Drive)
+- Reinstalled Linux after fiasco with accidental partitioning error
+- Set up dual-boot with Windows
