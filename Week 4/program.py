@@ -35,10 +35,42 @@ window.columnconfigure(3, minsize=800, weight=1)
 list_traitsbox = tk.Listbox(window, selectmode="multiple")
 array_traits = []
 array_deleted_traits = []
+array_recovered_traits = []
 traits_to_retrieve = 1
-frm_buttons = tk.Frame(window, bd=2)
+frame_buttons = tk.Frame(window)
 
 # Functions
+
+def recover(deleted_listbox):
+    array_recovery = deleted_listbox.curselection()
+    print("recovering:")
+    print(deleted_listbox)
+    for row in array_recovery:
+        array_traits.append(array_deleted_traits[row])
+        list_traitsbox.insert(END, array_deleted_traits[row])
+        print(array_deleted_traits[row])
+    print('Traits array:')
+    print(array_traits)
+    for trait in array_recovery[::-1]:
+        #print(trait)
+        #print(list_traitsbox.get(trait))
+        deleted_listbox.delete(trait)
+
+
+def show_deleted_window():
+    array_recovered_traits.clear()
+    deleted_window = Toplevel(window)
+    deleted_window.title("Select traits to re-add")
+    deleted_window.geometry("600x600")
+    deleted_window.rowconfigure(0, weight=1)
+    deleted_window.columnconfigure(0, weight=1)
+    deleted_listbox = tk.Listbox(deleted_window, selectmode="multiple")
+    for i in range(len(array_deleted_traits)):
+        deleted_listbox.insert(END, array_deleted_traits[i])
+    deleted_listbox.grid(row=0, column=0, sticky="nsew")
+
+    btn_deleted_recover = tk.Button(deleted_window, text="Recover selected", command= lambda: recover(deleted_listbox))
+    btn_deleted_recover.grid(column=0, row=1)
 
 def clicked():
     res = entry_num.get()
@@ -59,7 +91,7 @@ def get_traits(number):
     for row in data:
         array_traits.append(row[0])
 
-def clear_traits():
+def remove_selected_traits():
     selected_traits = list_traitsbox.curselection()
     #print(selected_traits)
     for trait in selected_traits[::-1]:
@@ -67,41 +99,67 @@ def clear_traits():
         #print(list_traitsbox.get(trait))
         array_deleted_traits.append(list_traitsbox.get(trait))
         list_traitsbox.delete(trait)
-    print(array_deleted_traits)
+    #print(array_deleted_traits)
+
+def clear_traits():
+    list = list_traitsbox.get(0, END)
+    for trait in list:
+        array_deleted_traits.append(trait)
+    # array_deleted_traits.append(list)
+    #print(array_deleted_traits)
+    list_traitsbox.delete(0, END)
 
 def increment():
-    #TODO: add function
-    1==1
+    num = int(entry_num.get())
+    entry_num.delete(0,END)
+    if(num >= 0):
+        entry_num.insert(0, num+1)
+    else:
+        entry_num.insert(0, "0")
 
+def decrement():
+    num = int(entry_num.get())
+    entry_num.delete(0,END)
+    if(num > 0):
+        entry_num.insert(0, num-1)
+    else:
+        entry_num.insert(0, "0")
 
 # Buttons for number of traits to retrieve
-val_frame = tk.Frame(frm_buttons, bd=1, background="green")
-btn_retrieve = tk.Button(frm_buttons, text="Retrieve", command=clicked)
-btn_dec = tk.Button(val_frame, text="-")
-entry_num = Entry(val_frame)
-btn_inc = tk.Button(val_frame, text="+")
-lbl_status = tk.Label(val_frame, text="")
+frame_values = tk.Frame(frame_buttons, background="green")
+btn_retrieve = tk.Button(frame_buttons, text="Retrieve", command=clicked)
+btn_dec = tk.Button(frame_values, text="-", command=decrement)
+entry_num = Entry(frame_values)
+entry_num.insert(0, "10")
+btn_inc = tk.Button(frame_values, text="+", command=increment)
+lbl_status = tk.Label(frame_values, text="")
+
+
+# Deleted window buttons
+lbl_choose_deleted = tk.Label()
+btn_show_deleted = tk.Button(frame_buttons, text="Recover deleted traits", command=show_deleted_window)
 
 # Other buttons
-btn_save = tk.Button(frm_buttons, text="Generate")
-btn_clear = tk.Button(frm_buttons, text="Clear", command=clear_traits)
-btn_four = tk.Button(frm_buttons, text="Options")
+btn_save = tk.Button(frame_buttons, text="Generate")
+btn_remove = tk.Button(frame_buttons, text="Remove selected traits", command=remove_selected_traits)
+btn_clear = tk.Button(frame_buttons, text="Clear all traits", command=clear_traits)
 
 # Arrange
 btn_retrieve.grid(row=0, column=0, sticky="ew", padx=5, pady=5)
 #btn_save.grid(row=1, column=0, sticky="ew", padx=5)
 
 # Arrange retrieval numbers
-val_frame.grid(row=1, column=0, sticky="ew", padx=5)
+frame_values.grid(row=1, column=0, sticky="ew", padx=5)
 btn_dec.grid(row=0, column=0, sticky="ew", padx=5)
 entry_num.grid(row=0, column=1, sticky="ew", padx=5)
 btn_inc.grid(row=0, column=2, sticky="ew", padx=5)
 #lbl_status.grid(row=1, column=0, columnspan=3, sticky="ew")
 
 # Arrange other buttons
-btn_clear.grid(row=2, column=0, sticky="ew", padx=5)
-btn_four.grid(row=3, column=0, sticky="ew", padx=5)
-frm_buttons.grid(row=0, column=0, sticky="ns")
+btn_remove.grid(row=2, column=0, sticky="ew", padx=5)
+btn_clear.grid(row=3, column=0, sticky="ew", padx=5)
+frame_buttons.grid(row=0, column=0, sticky="ns")
+btn_show_deleted.grid(row=4, column=0, sticky="ew", padx=5)
 
 list_traitsbox.grid(row=0, column=3, sticky="nsew")
 
