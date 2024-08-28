@@ -39,21 +39,16 @@ array_recovered_traits = []
 traits_to_retrieve = 1
 frame_buttons = tk.Frame(window)
 
+
+
 # Functions
 
 def recover(deleted_listbox):
     array_recovery = deleted_listbox.curselection()
-    print("recovering:")
-    print(deleted_listbox)
     for row in array_recovery:
         array_traits.append(array_deleted_traits[row])
         list_traitsbox.insert(END, array_deleted_traits[row])
-        print(array_deleted_traits[row])
-    print('Traits array:')
-    print(array_traits)
     for trait in array_recovery[::-1]:
-        #print(trait)
-        #print(list_traitsbox.get(trait))
         deleted_listbox.delete(trait)
 
 
@@ -76,11 +71,9 @@ def clicked():
     res = entry_num.get()
     if res.isnumeric():
         traits_to_retrieve = res
-        #status.configure(text = "Retrieved " + res + " records:")
         get_traits(traits_to_retrieve)
         for i in range(len(array_traits)):
             list_traitsbox.insert(END, array_traits[i])
-            #list_traitsbox.itemconfig(i, bg = "lightgray")
     else:
         #status.configure(text = "Error: couldn't parse input")
         1==1
@@ -93,20 +86,14 @@ def get_traits(number):
 
 def remove_selected_traits():
     selected_traits = list_traitsbox.curselection()
-    #print(selected_traits)
     for trait in selected_traits[::-1]:
-        #print(trait)
-        #print(list_traitsbox.get(trait))
         array_deleted_traits.append(list_traitsbox.get(trait))
         list_traitsbox.delete(trait)
-    #print(array_deleted_traits)
 
 def clear_traits():
     list = list_traitsbox.get(0, END)
     for trait in list:
         array_deleted_traits.append(trait)
-    # array_deleted_traits.append(list)
-    #print(array_deleted_traits)
     list_traitsbox.delete(0, END)
 
 def increment():
