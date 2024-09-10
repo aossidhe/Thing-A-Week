@@ -5,6 +5,8 @@
 - Attended Yoga class
 - First draft of a script for a play
 - Started reading _Categories for the Working Mathematician_, an introduction to category theory
+- Read first two chapters of _Shaum's Outline of Theory and Problems of Abstract Algebra_
+- Read five chapters of _Beginner's Guide to Digital Painting in Photoshop: Characters_
 
 <!-- ### Usage Notes -->
 
@@ -14,6 +16,12 @@
 - Creative writing
 - Maths
   - Category theory
+  - Set theory
+  - Abstract algebra
+- Art
+  - Anatomy
+  - Character design
+  - Photoshop tools and techniques
 
 ### Notes:
 
